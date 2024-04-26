@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 exam_title = "2024 Spring Objective Oriented Programming"
-fname = ".\OOP_Midterm_Grading.xlsx"
+fname = "OOP_Midterm_Grading.xlsx"
 solution = '''Solution
 1. (10p - 2p each)
 (a) T
