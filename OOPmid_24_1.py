@@ -5,31 +5,31 @@ exam_title = "2024 Spring Objective Oriented Programming"
 fname = "OOP_Midterm_Grading.xlsx"
 solution_1 = '''Solution
 1. (10p - 2p each) \n
-(a) T
-(b) F
-(c) F
-(d) T
-(e) T
+(a) T \n
+(b) F \n
+(c) F \n
+(d) T \n
+(e) T \n
 
-2. (10p - 2p each)
-(a) Compile
-(b) Garbage
-(c) Object
-(d) Polymorphism
+2. (10p - 2p each) \n
+(a) Compile \n 
+(b) Garbage \n
+(c) Object \n
+(d) Polymorphism \n
 
-3. (15p)
-(a) - 3p
-Integrated Development Environment
-(b) - 6p (2p each)
-char, short (2 bytes) / int, float (4 bytes) / double,long (8 bytes)
-(c) - 6p (2p each)
-17ff 1755 144
+3. (15p) \n
+(a) - 3p \n
+Integrated Development Environment \n
+(b) - 6p (2p each) \n
+char, short (2 bytes) / int, float (4 bytes) / double,long (8 bytes) \n
+(c) - 6p (2p each) \n
+17ff 1755 144 \n
 
-4. (7p)
-(a) - 3p
-It serves as a fallback option. It executes when none of the preceding case labels match the value of the expression being evaluated
-(b) - 4p
-200
+4. (7p) \n
+(a) - 3p \n
+It serves as a fallback option. It executes when none of the preceding case labels match the value of the expression being evaluated \n
+(b) - 4p \n
+200 \n
 
 5. (11P) 
 '''
@@ -68,9 +68,9 @@ public class Summations {
 
 solution_5 = '''
 
-for statement - 4p
-(while, if) - 4p
-Input - 3p
+for statement - 4p \n
+(while, if) - 4p \n
+Input - 3p \n
 
 6. (10p)
 '''
@@ -112,24 +112,24 @@ public class NumberPattern {
 
 solution_6 ='''
 
-Input part - 2p
-Algorithm, output part - 8p
+Input part - 2p \n
+Algorithm, output part - 8p \n
 
 9.
-(a) - 3p
-2 4 6 8 10
-(b) - 7p
-The error arises because the class AccessEx is attempting to access private members "b" of the Sample class, 
-which are not accessible outside of the Sample class itself. There can be two possible ways to fix these errors.
+(a) - 3p \n
+2 4 6 8 10 \n
+(b) - 7p \n
+The error arises because the class AccessEx is attempting to access private members "b" of the Sample class,  \n
+which are not accessible outside of the Sample class itself. There can be two possible ways to fix these errors. \n
 
-Solution: 
-1. Make b accessible: We can change the access modifier of b from private to either public or protected, depending on your design requirements.
-2. Provide a public method to access b: We can create a public method within the Sample class to set the value of b.
+Solution: \n
+1. Make b accessible: We can change the access modifier of b from private to either public or protected, depending on your design requirements. \n
+2. Provide a public method to access b: We can create a public method within the Sample class to set the value of b. \n
 
-Explain the Error correctly +4 point
-Right solution +3 point 
+Explain the Error correctly - 4p \n
+Right solution - 3p \n
 
-10.
+10. 
 '''
 
 code_10 ='''
@@ -181,10 +181,10 @@ public class CircleIntersectionChecker {
 
 solution_10 = '''
 
-Circle Class - 6p
-Main Program - 6p 
+Circle Class - 6p \n
+Main Program - 6p \n
 
-However, If your code has problem with the output, your lose 3 point
+However, If your code has problem with the output, your lose 3 point \n
 '''
 
 # Setup Title & Wide layout
