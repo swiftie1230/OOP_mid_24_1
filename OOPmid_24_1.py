@@ -128,7 +128,7 @@ Algorithm, output part - 8p \n
 
 solution_7 = '''
 7. (8p - 2p each) \n
-(a) -(4) \n
+(a) - (4) \n
 (b) - (3) \n
 (c) - (2) \n
 (d) - (1) \n
@@ -138,7 +138,7 @@ solution_8 = '''
 8. (9p - 3p each) \n
 (1) try \n
 (2) number < min || number > max \n
-    or, \n
+    or \n
     number < 1 || number > 100 \n
 (3) catch \n
 '''
