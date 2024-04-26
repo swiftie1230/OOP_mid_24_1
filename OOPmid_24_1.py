@@ -10,13 +10,17 @@ solution_1 = '''Solution
 (c) F \n
 (d) T \n
 (e) T \n
+'''
 
+solution_2 = '''
 2. (10p - 2p each) \n
 (a) Compile \n 
 (b) Garbage \n
 (c) Object \n
 (d) Polymorphism \n
+'''
 
+solution_3 = '''
 3. (15p) \n
 (a) - 3p \n
 Integrated Development Environment \n
@@ -24,13 +28,17 @@ Integrated Development Environment \n
 char, short (2 bytes) / int, float (4 bytes) / double,long (8 bytes) \n
 (c) - 6p (2p each) \n
 17ff 1755 144 \n
+'''
 
+solution_4 = '''
 4. (7p) \n
 (a) - 3p \n
 It serves as a fallback option. It executes when none of the preceding case labels match the value of the expression being evaluated \n
 (b) - 4p \n
 200 \n
+'''
 
+solution_5_1 = '''
 5. (11P) 
 '''
 
@@ -66,12 +74,14 @@ public class Summations {
 }
 '''
 
-solution_5 = '''
+solution_5_2 = '''
 
 for statement - 4p \n
 (while, if) - 4p \n
 Input - 3p \n
+'''
 
+solution_6_1 = '''
 6. (10p)
 '''
 
@@ -110,14 +120,33 @@ public class NumberPattern {
 }
 '''
 
-solution_6 ='''
+solution_6_2 ='''
 
 Input part - 2p \n
 Algorithm, output part - 8p \n
+'''
 
+solution_7 = '''
+7. (8p - 2p each) \n
+(a) -(4) \n
+(b) - (3) \n
+(c) - (2) \n
+(d) - (1) \n
+'''
+
+solution_8 = '''
+8. (9p - 3p each) \n
+(1) try \n
+(2) number < min || number > max \n
+    or, \n
+    number < 1 || number > 100 \n
+(3) catch \n
+'''
+solution_9 = '''
 9.
 (a) - 3p \n
 2 4 6 8 10 \n
+
 (b) - 7p \n
 The error arises because the class AccessEx is attempting to access private members "b" of the Sample class,  \n
 which are not accessible outside of the Sample class itself. There can be two possible ways to fix these errors. \n
@@ -128,7 +157,8 @@ Solution: \n
 
 Explain the Error correctly - 4p \n
 Right solution - 3p \n
-
+'''
+solution_10_1 = '''
 10. 
 '''
 
@@ -179,7 +209,7 @@ public class CircleIntersectionChecker {
 }
 '''
 
-solution_10 = '''
+solution_10_2 = '''
 
 Circle Class - 6p \n
 Main Program - 6p \n
@@ -240,10 +270,28 @@ if student_id:
         st.write(f"No data found for email: {student_id}")
         
 st.write(solution_1)  
+st.markdown("""---""")
+st.write(solution_2)  
+st.markdown("""---""")
+st.write(solution_3)  
+st.markdown("""---""")
+st.write(solution_4)  
+st.markdown("""---""")
+st.write(solution_5_1)  
 st.code(code_5, language='java')
-st.write(solution_5)  
+st.write(solution_5_2)  
+st.markdown("""---""")
+st.write(solution_6_1)  
 st.code(code_6, language='java')
-st.write(solution_6)  
+st.write(solution_6_2)  
+st.markdown("""---""")
+st.write(solution_7) 
+st.markdown("""---""")
+st.write(solution_8) 
+st.markdown("""---""")
+st.write(solution_9) 
+st.markdown("""---""")
+st.write(solution_10_1) 
 st.code(code_10, language='java')
-st.write(solution_10)  
+st.write(solution_10_2)  
         
