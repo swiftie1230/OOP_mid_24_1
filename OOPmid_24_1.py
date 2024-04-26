@@ -34,8 +34,7 @@ It serves as a fallback option. It executes when none of the preceding case labe
 5. (11P) 
 '''
 
-code_5 = 
-'''
+code_5 = '''
 import java.util.Scanner;
 
 public class Summations {
@@ -67,8 +66,7 @@ public class Summations {
 }
 '''
 
-solution_5 = 
-'''
+solution_5 = '''
 
 for statement - 4p
 (while, if) - 4p
@@ -77,8 +75,7 @@ Input - 3p
 6. (10p)
 '''
 
-code_6 =
-'''
+code_6 = '''
 import java.util.Scanner;
 public class NumberPattern {
     public static void main(String[] args) {
@@ -113,8 +110,7 @@ public class NumberPattern {
 }
 '''
 
-solution_6 =
-'''
+solution_6 ='''
 
 Input part - 2p
 Algorithm, output part - 8p
@@ -136,8 +132,7 @@ Right solution +3 point
 10.
 '''
 
-code_10 =
-'''
+code_10 ='''
 import java.util.Scanner;
 
 class Circle {
@@ -184,8 +179,7 @@ public class CircleIntersectionChecker {
 }
 '''
 
-solution_10 = 
-'''
+solution_10 = '''
 
 Circle Class - 6p
 Main Program - 6p 
