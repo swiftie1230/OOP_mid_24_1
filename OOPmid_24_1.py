@@ -137,9 +137,7 @@ solution_7 = '''
 solution_8 = '''
 8. (9p - 3p each) \n
 (1) try \n
-(2) number < min || number > max \n
-    As an alternative, \n
-    number < 1 || number > 100 \n
+(2) number < min(As an alternative, 1) || number > max(As an alternative, 100) \n
 (3) catch \n
 '''
 solution_9 = '''
