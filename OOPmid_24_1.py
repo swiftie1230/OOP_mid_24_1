@@ -31,7 +31,8 @@ It serves as a fallback option. It executes when none of the preceding case labe
 (b) - 4p
 200
 
-5. (11P)
+5. (11P)      
+
 import java.util.Scanner;
 
 public class Summations {
@@ -61,7 +62,7 @@ public class Summations {
         System.out.println("B = " + sumB);
     }
 }
-
+    
 for statement +4p
 (while, if) +4p
 Input +3p
