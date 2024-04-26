@@ -3,7 +3,7 @@ import pandas as pd
 
 exam_title = "2024 Spring Objective Oriented Programming"
 fname = "OOP_Midterm_Grading.xlsx"
-solution = '''Solution
+solution_1 = '''Solution
 1. (10p - 2p each)
 (a) T
 (b) F
@@ -31,8 +31,11 @@ It serves as a fallback option. It executes when none of the preceding case labe
 (b) - 4p
 200
 
-5. (11P)      
+5. (11P) 
+'''
 
+code_5 = 
+'''
 import java.util.Scanner;
 
 public class Summations {
@@ -62,12 +65,20 @@ public class Summations {
         System.out.println("B = " + sumB);
     }
 }
-    
-for statement +4p
-(while, if) +4p
-Input +3p
+'''
+
+solution_5 = 
+'''
+
+for statement - 4p
+(while, if) - 4p
+Input - 3p
 
 6. (10p)
+'''
+
+code_6 =
+'''
 import java.util.Scanner;
 public class NumberPattern {
     public static void main(String[] args) {
@@ -100,15 +111,18 @@ public class NumberPattern {
         scanner.close();
     }
 }
+'''
 
-Input part +2p
-Algorithm, output part +8p
+solution_6 =
+'''
 
-9-a 
+Input part - 2p
+Algorithm, output part - 8p
 
+9.
+(a) - 3p
 2 4 6 8 10
-
-9-b 
+(b) - 7p
 The error arises because the class AccessEx is attempting to access private members "b" of the Sample class, 
 which are not accessible outside of the Sample class itself. There can be two possible ways to fix these errors.
 
@@ -120,6 +134,10 @@ Explain the Error correctly +4 point
 Right solution +3 point 
 
 10.
+'''
+
+code_10 =
+'''
 import java.util.Scanner;
 
 class Circle {
@@ -164,11 +182,15 @@ public class CircleIntersectionChecker {
         scanner.close();
     }
 }
+'''
 
-Circle Class +6p
-Main Program  +6p 
+solution_10 = 
+'''
 
-Problem with the output part -3p
+Circle Class - 6p
+Main Program - 6p 
+
+However, If your code has problem with the output, your lose 3 point
 '''
 
 # Setup Title & Wide layout
@@ -223,5 +245,11 @@ if student_id:
     else:
         st.write(f"No data found for email: {student_id}")
         
-st.write(solution)       
+st.write(solution_1)  
+st.code(code_5, language='java')
+st.write(solution_5)  
+st.code(code_6, language='java')
+st.write(solution_6)  
+st.code(code_10, language='java')
+st.write(solution_10)  
         
