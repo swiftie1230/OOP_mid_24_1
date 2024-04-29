@@ -27,7 +27,9 @@ Integrated Development Environment \n
 (b) - 6p (2p each) \n
 char, short (2 bytes) / int, float (4 bytes) / double,long (8 bytes) \n
 (c) - 6p (2p each) \n
-17ff 1755 144 \n
+17ff \n
+1755 \n
+144 \n
 '''
 
 solution_4 = '''
