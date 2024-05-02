@@ -17,7 +17,7 @@ solution_2 = '''
 (a) Compile \n 
 (b) Garbage \n
 (c) Object \n
-(d) Polymorphism \n
+(d) Polymorphism (or method overloading or method overriding) \n
 '''
 
 solution_3 = '''
@@ -29,7 +29,7 @@ char, short (2 bytes) / int, float (4 bytes) / double,long (8 bytes) \n
 (c) - 6p (2p each) \n
 17ff \n
 1755 \n
-144 \n
+144 (or -112) \n
 '''
 
 solution_4 = '''
@@ -214,7 +214,8 @@ solution_10_2 = '''
 Circle Class - 6p \n
 Main Program - 6p \n
 
-However, If your code has problem with the output, your lose 3 point \n
+However, If your code has problem with the output, your lose 3 points. \n
+Also, we accepted your answers that included equal sign for hasIntersection function. \n 
 '''
 
 # Setup Title & Wide layout
